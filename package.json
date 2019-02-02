@@ -1,5 +1,5 @@
 {
-  "name": "comp08-2019-lesson3b",
+  "name": "comp08-2019-lesson4b",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -15,14 +15,15 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
-    "font-awesome": "^4.7.0",
     "express": "~4.16.0",
+    "font-awesome": "^4.7.0",
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
+    "mongoose": "^5.4.9",
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "Express Generator Demo",
+  "description": "Mongo and Mongoose Demo, but no Mangoes",
   "main": "server.js",
   "author": "Gabriele Hunte",
   "license": "ISC",
@@ -30,7 +31,16 @@
     "@types/body-parser": "^1.17.0",
     "@types/cookie-parser": "^1.4.1",
     "@types/express": "^4.16.1",
+    "@types/mongoose": "^5.3.12",
     "@types/morgan": "^1.7.35",
     "@types/node": "^10.12.18"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragoniCode/COMP308-W2019-Lesson4B.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DragoniCode/COMP308-W2019-Lesson4B/issues"
+  },
+  "homepage": "https://github.com/DragoniCode/COMP308-W2019-Lesson4B#readme"
 }
