@@ -33,6 +33,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'node_modules')));
 
+
+// Setup and place routing for additional pages
 app.use('/', indexRouter);
 app.use('/contact-list',contactRouter);
 

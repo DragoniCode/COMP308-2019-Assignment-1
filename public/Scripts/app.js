@@ -1,5 +1,5 @@
 /* Custom JavaScript goes Here */
-//IFFE -- Immediatel Invoked Function Expression
+//IFFE -- Immediately Invoked Function Expression
 
 (function(){
     function Start(){
