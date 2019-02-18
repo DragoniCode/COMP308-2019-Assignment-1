@@ -2,9 +2,14 @@
 
     <div class="container">
       <div class="jumbotron">
-        <h1 class="display-4">Welcome to <%= title %></h1>
+        <h1 class="display-4">Welcome to My <%= title %></h1>
         <% if (title == "Home") {%>
-          <a href="/about" role="tooltip">Let Me Introduce Myself<a>
+          <br>
+          <h4>Here we strive to continously improve:<br>
+           Progress stops for no one </h4>
+          <br>
+          <br>
+          <a href="/about" >Let Me Tell You A Bit About Myself<a>
         <% } %>
         <% if (title == "Contact") {%>
           <a class = "btn btn-primary" href="/contact-list" role="button">Contact List</a>

@@ -1,6 +1,6 @@
 /* custom css goes here */
 body {
-    background: rgba(180, 180, 180, 0.3);
+    background: rgba(30, 30, 30, 0.95);
     padding-top: 60px;
   }
   /* @media (max-width: 979px) {
@@ -33,6 +33,71 @@ nav.navbar{
     } */
 
 .jumbotron{
-  background-color: rgb(255, 253, 246);
+  background-color: #f3f1f1;
 }
+
+.rounded-circle { 
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+/* design from https://leaverou.github.io/bubbly/ */
+.speech-bubble {
+	position: relative;
+	background: #f3f1f1;
+  border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-right-color: #f3f1f1;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -25px;
+	margin-left: -50px;
+}
+/* 
+.image {
+  display: inline-block;
+  position: relative;
+}
+
+  .image img {
+    display: block;
+    width: 100%;
+  }
+
+  .image.fit {
+    display: block;
+    width: 100%;
+  }
+
+  .image.featured {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+  }
+
+  .image.left {
+    float: left;
+    margin: 0 2em 2em 0;
+  }
+
+  .image.centered {
+    display: block;
+    margin: 0 0 2em 0;
+  }
+
+    .image.centered img {
+      margin: 0 auto;
+      width: auto;
+    } */
+
+
       
