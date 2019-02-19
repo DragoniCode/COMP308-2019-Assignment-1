@@ -1,4 +1,4 @@
-/* Custom JavaScript goes Here */
+/* Gabriele Hunte 300833315 2019 */
 //IFFE -- Immediately Invoked Function Expression
 
 (function(){
