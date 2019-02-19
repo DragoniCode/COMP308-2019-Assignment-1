@@ -32,7 +32,9 @@ module.exports.processAddPage = (req, res, next) => {
     let newContact = contactModel({
         "firstName": req.body.firstName,
         "lastName": req.body.lastName,
-        "age": req.body.age
+        "phone": req.body.phone,
+        "email": req.body.email,
+        "message": req.body.message
     });
 
     contactModel.create(newContact, (err, contactModel) => {
@@ -73,7 +75,9 @@ module.exports.processEditPage = (req, res, next) => {
         "_id": id,
         "firstName": req.body.firstName,
         "lastName": req.body.lastName,
-        "age": req.body.age
+        "phone": req.body.phone,
+        "email": req.body.email,
+        "message": req.body.message
     });
 
     contactModel.update({_id: id}, updatedContact, (err) => {

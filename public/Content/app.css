@@ -41,12 +41,20 @@ nav.navbar{
 .view-area{
   background-color: #f3f1f1;
   border-radius: 25px;
-  padding: 20px;  
+  padding: 20px;
   /* padding: 20% 20%;
   float: left;
   text-align:left;
   overflow: auto; */
 }
+
+.services{
+  border-spacing: 20px;
+  border-radius: 25px;
+  padding:20px 20px;
+  font-size: 18px;
+}
+
 
 
 /* speec-bubble design from https://leaverou.github.io/bubbly/ */
